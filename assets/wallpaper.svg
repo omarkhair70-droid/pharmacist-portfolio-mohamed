@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#087ee7"/><stop offset="1" stop-color="#2f9ee8"/></linearGradient>
+  <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14171c"/><stop offset="1" stop-color="#050608"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<path d="M0 0h1600v120C1300 80 1110 52 870 45 560 35 300 74 0 180z" fill="url(#stone)"/>
+<path d="M0 900V150c190-70 430-105 690-90C370 105 250 210 185 330 120 450 92 610 120 900z" fill="#080a0d"/>
+<path d="M1600 900V125c-190 8-345 68-470 182 130 35 222 128 274 278 35 100 49 205 41 315z" fill="#0b0d11"/>
+<path d="M1060 900h540V520c-170-25-308 9-412 101-76 67-119 160-128 279z" fill="#15181d"/>
+<path d="M1090 900c13-131 63-222 151-273 76-45 191-61 359-47v320z" fill="#050607"/>
+<g transform="translate(820 245)">
+  <rect x="-24" y="170" width="48" height="315" fill="#6d4c25"/>
+  <rect x="-34" y="150" width="68" height="46" fill="#8f6229"/>
+  <rect x="-18" y="95" width="36" height="60" fill="#755121"/>
+  <path d="M0 0l22 95h-44z" fill="#603d18"/>
+  <circle cy="215" r="26" fill="#f4e5b0" stroke="#c59c47" stroke-width="5"/>
+  <circle cy="215" r="4" fill="#222"/>
+  <path d="M0 215l0-18M0 215l12 6" stroke="#333" stroke-width="3"/>
+</g>
+<g opacity=".85">
+  <rect x="420" y="560" width="360" height="210" fill="#2a2118"/>
+  <path d="M420 560h360l-40-55H460z" fill="#3a2a1c"/>
+  <g fill="#d9b06c"><rect x="450" y="600" width="12" height="170"/><rect x="500" y="600" width="12" height="170"/><rect x="550" y="600" width="12" height="170"/><rect x="600" y="600" width="12" height="170"/><rect x="650" y="600" width="12" height="170"/><rect x="700" y="600" width="12" height="170"/></g>
+</g>
+<g fill="#f7e9aa" filter="url(#soft)" opacity=".75"><circle cx="1000" cy="470" r="12"/><circle cx="1160" cy="620" r="9"/><circle cx="1320" cy="560" r="10"/></g>
+<rect y="850" width="1600" height="50" fill="#17181b"/>
+</svg>
